@@ -1,0 +1,159 @@
+/* Adding local fonts */
+@font-face {
+    font-family: tsBlock;
+        src: url('../fonts/tsBlock-Bold.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: blackMango;
+    src: url('../fonts/blackMango-Light.otf') format("opentype");
+}
+
+body {
+    background-image: url("../img/paper.jpg"), url("../img/noise.png"), radial-gradient(circle, #fbf6b5 0%, #c27ed1 32%, #9e91d3 65%, #77b3cf 100%);
+    background-position: left top, left top, left top;
+    background-repeat: repeat, repeat, repeat;
+    background-blend-mode: multiply, normal, normal;
+}
+
+h1 {
+    font-size: 4.5vw;
+    font-family: "tsBlock";
+    color: white;
+    margin-bottom: 0vw;
+    margin-top: 2vw;
+}
+
+nav ul {
+    text-align:center;
+	margin-top:2vw;
+	list-style-type:none;
+}
+
+nav ul li {
+	display:inline;
+}
+
+p, ul {
+    margin-top: 0vw;
+    margin-bottom: 0vw;
+    font-size: 1.7vw;
+    font-family: "blackMango";
+    color: white;
+}
+
+table {
+    text-align: center;
+    margin-top: 3vw;
+    border-spacing: 5vw 0;
+}
+
+th, h2 {
+    font-size: 2.5vw;
+    font-family: "tsBlock";
+    color: white;
+    margin-bottom: 0vw;
+}
+
+td {
+    font-size: 1.7vw;
+    font-family: "blackMango";
+    color: white;
+}
+
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: maroon;
+}
+
+a:hover {
+    color: green;
+}
+
+/* All classes */
+
+.scrapbook {
+    width: 25vw;
+    height: 23vw;
+}
+
+.click {
+    width: 10vw;
+    height: 5vw;
+}
+
+.click:hover {
+    transform: rotate(-10deg);
+}
+
+.space {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    margin-right: 2vw;
+    text-align: left;
+}
+
+/* All ID's */
+
+#navigationBar {
+    height: 10vw;
+    width: 15vw;
+    margin-left: .5vw;
+    margin-right: .5vw;
+}
+
+#navigationBar:hover {
+	transform: rotate(-10deg);
+}
+
+#headerLogo {
+    width: 30vw;
+    height: 9vw;
+}
+
+#pageMain {
+    float: left;
+    width: 50vw;
+    height: 36vw;
+    margin-top: 0vw;
+    margin-bottom: 2vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+#calendar {
+    position: absolute;
+    width: 22vw;
+    height: 30vw;
+    top: 3vw;
+    left: -12vw;
+    transform: rotate(30deg);
+    z-index: -100;
+}
+
+#letterPress {
+    width: 27vw;
+    height: 10vw;
+    position: absolute;
+    top: -2vw;
+    right: 0vw;
+    z-index: -100;
+}
+
+#origami {
+    width: 15vw;
+    height: 14vw;
+    position: absolute;
+    top: 8vw;
+    right: -5vw;
+    z-index: -100;
+}
+
+#linkedin {
+    width: 6vw;
+    height: 6vw;
+}
